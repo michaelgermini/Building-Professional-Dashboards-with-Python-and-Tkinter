@@ -1,0 +1,100 @@
+site_name: Building Professional Dashboards with Python and Tkinter
+site_description: Guide complet pour créer des dashboards professionnels avec Python et Tkinter
+site_author: Dashboard Development Team
+site_url: https://your-username.github.io/building-professional-dashboards
+
+repo_name: building-professional-dashboards
+repo_url: https://github.com/your-username/building-professional-dashboards
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_generator: !!python/object/apply:pymdownx.emoji.to_svg
+      emoji_index: !!python/object/apply:pymdownx.emoji.twemoji
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-username/building-professional-dashboards
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/your-username
+
+nav:
+  - Accueil: index.md
+  - Préface: preface.md
+  - Table des Matières: TABLE_OF_CONTENTS.md
+  - Chapitres:
+    - "Chapitre 1: Premiers Pas": chapters/chapter01-getting-started/README.md
+    - "Chapitre 2: Widgets de Base": chapters/chapter02-core-widgets/README.md
+    - "Chapitre 3: Événements et Callbacks": chapters/chapter03-events-callbacks/README.md
+    - "Chapitre 4: Architecture Dashboard": chapters/chapter04-dashboard-architecture/README.md
+    - "Chapitre 5: Visualisation de Données": chapters/chapter05-data-visualization/README.md
+    - "Chapitre 6: Widgets Avancés": chapters/chapter06-advanced-widgets/README.md
+    - "Chapitre 7: Intégration Base de Données": chapters/chapter07-database-integration/README.md
+    - "Chapitre 8: Dashboards Temps Réel": chapters/chapter08-real-time-dashboards/README.md
+    - "Chapitre 9: Export et Rapports": chapters/chapter09-exporting-reporting/README.md
+    - "Chapitre 10: Dashboard Professionnel Complet": chapters/chapter10-complete-professional-dashboard/README.md
+  - Projet Final: final-project/README.md
+  - Annexes:
+    - "Annexe A: Référence Widgets Tkinter": appendices/appendix_a_tkinter_widget_reference.md
+    - "Annexe B: Packaging Python": appendices/appendix_b_python_packaging.md
+    - "Annexe C: Guide de Déploiement": appendices/appendix_c_deployment_guide.md
+  - Contribution: CONTRIBUTING.md
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
