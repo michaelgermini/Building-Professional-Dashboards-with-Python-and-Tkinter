@@ -1,0 +1,59 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python files
+*.py text diff=python
+
+# Markdown files
+*.md text diff=markdown
+
+# Documentation
+*.txt text
+*.rst text
+
+# Graphics
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
+
+# Archives
+*.zip binary
+*.tar.gz binary
+*.rar binary
+
+# Database files (should be ignored, but just in case)
+*.db binary
+*.sqlite binary
+*.sqlite3 binary
+
+# Executables
+*.exe binary
+*.msi binary
+*.dmg binary
+*.app binary
+
+# Logs
+*.log text
+
+# Config files
+*.ini text
+*.cfg text
+*.conf text
+*.json text
+*.xml text
+*.yaml text
+*.yml text
+
+# Scripts
+*.sh text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Requirements and setup
+requirements.txt text
+setup.py text
+Pipfile text
+Pipfile.lock text
