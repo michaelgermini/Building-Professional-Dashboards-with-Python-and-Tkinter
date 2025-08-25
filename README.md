@@ -386,6 +386,53 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 [![Get Started](https://img.shields.io/badge/Get%20Started-Chapter%201-blue?style=for-the-badge&logo=python)](chapters/chapter01-getting-started/)
 
+## 📚 Chapter READMEs
+
+### 🎯 Quick Navigation to All Chapters
+
+| Chapter | Title | README Link | Focus |
+|---------|-------|-------------|-------|
+| **1** | Getting Started | [📖 README](chapters/chapter01-getting-started/README.md) | Basic Tkinter concepts |
+| **2** | Core Widgets | [📖 README](chapters/chapter02-core-widgets/README.md) | Essential widgets |
+| **3** | Events & Callbacks | [📖 README](chapters/chapter03-events-callbacks/README.md) | Interactive applications |
+| **4** | Dashboard Architecture | [📖 README](chapters/chapter04-dashboard-architecture/README.md) | MVC patterns |
+| **5** | Data Visualization | [📖 README](chapters/chapter05-data-visualization/README.md) | Charts and graphs |
+| **6** | Advanced Widgets | [📖 README](chapters/chapter06-advanced-widgets/README.md) | Professional components |
+| **7** | Database Integration | [📖 README](chapters/chapter07-database-integration/README.md) | SQLite operations |
+| **8** | Real-time Dashboards | [📖 README](chapters/chapter08-real-time-dashboards/README.md) | Live applications |
+| **9** | Exporting & Reporting | [📖 README](chapters/chapter09-exporting-reporting/README.md) | PDF generation |
+| **10** | Complete Professional Dashboard | [📖 README](chapters/chapter10-complete-professional-dashboard/README.md) | Full application |
+
+### 🚀 Direct Links to Key Resources
+
+- **📖 Main Documentation**: [README.md](README.md)
+- **🎯 Start Learning**: [Chapter 1 README](chapters/chapter01-getting-started/README.md)
+- **🏆 View Demo**: [Chapter 10 README](chapters/chapter10-complete-professional-dashboard/README.md)
+- **🧪 Exercise Collection**: [exercises_summary.md](exercises_summary.md)
+- **💡 Complete Solutions**: [exercise_solutions.md](exercise_solutions.md)
+- **📈 Learning Progression**: [learning_progression_guide.md](learning_progression_guide.md)
+- **🔧 Advanced Exercises**: [additional_exercises.md](additional_exercises.md)
+
+### 📖 Reference Materials
+
+- **📖 Tkinter Widget Reference**: [appendix_a_tkinter_widget_reference.md](appendices/appendix_a_tkinter_widget_reference.md)
+- **📦 Python Packaging Guide**: [appendix_b_python_packaging.md](appendices/appendix_b_python_packaging.md)
+- **🚀 Deployment Guide**: [appendix_c_deployment_guide.md](appendices/appendix_c_deployment_guide.md)
+
+### 🌐 Additional Resources
+
+- **🌐 Interactive Website**: [index.html](index.html) - Modern web interface for navigation
+- **📄 Website Documentation**: [website-README.md](website-README.md) - Website features and usage
+- **📋 Table of Contents**: [TABLE_OF_CONTENTS.md](TABLE_OF_CONTENTS.md) - Detailed book structure
+- **📝 Preface**: [preface.md](preface.md) - Book introduction and overview
+
+### 📖 Book Structure
+
+- **📝 [Preface](preface.md)** - Introduction et vue d'ensemble du livre
+- **📋 [Table of Contents](TABLE_OF_CONTENTS.md)** - Structure détaillée du livre
+- **📚 [Chapter 1: Getting Started](chapters/chapter01-getting-started/README.md)** - Concepts de base Tkinter
+- **🏆 [Chapter 10: Complete Professional Dashboard](chapters/chapter10-complete-professional-dashboard/README.md)** - Application complète
+
 *Built with ❤️ for the Python community*
 
 </div>
