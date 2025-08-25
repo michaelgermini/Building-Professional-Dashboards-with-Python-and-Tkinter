@@ -1,43 +1,43 @@
-# Chapter 8: Real-time Dashboards - Building Professional Dashboards with Python and Tkinter
+# Chapter 9: Exporting & Reporting - Building Professional Dashboards with Python and Tkinter
 
 ## 🎯 Chapter Overview
 
 ### 📋 Learning Objectives
-- **Objective**: Create real-time monitoring dashboards
-- **Objective**: Implement threading for background operations
-- **Objective**: Build live data visualization systems
+- **Objective**: Generate PDF reports from dashboard data
+- **Objective**: Export data to various formats (Excel, CSV)
+- **Objective**: Create professional reporting systems
 
 ### ⏱️ Estimated Duration
 - **Reading Time**: 2 hours
-- **Practice Time**: 4 hours
-- **Total Time**: 6 hours
+- **Practice Time**: 3.5 hours
+- **Total Time**: 5.5 hours
 
 ### 🎓 Prerequisites
-- Chapter 7 concepts
-- Threading basics
-- Real-time systems
+- Chapter 8 concepts
+- Data export
+- Report generation
 
 ## 📚 Chapter Content
 
 ### 🧠 Core Concepts
-- **Real-time data processing**: Real-time data processing
-- **Threading and concurrency**: Threading and concurrency
-- **Live monitoring systems**: Live monitoring systems
+- **PDF report generation**: PDF report generation
+- **Data export functionality**: Data export functionality
+- **Professional reporting**: Professional reporting
 
 ### 💻 Code Examples
 
-#### Example 1: System Monitor
-**Description**: Real-time system resource monitoring
+#### Example 1: Sales Report Generator
+**Description**: Generate PDF sales reports with charts
 
 ```python
-# system_monitor.py
+# sales_report_generator.py
 import tkinter as tk
 from tkinter import ttk
 
-class SystemMonitor:
+class SalesReportGenerator:
     def __init__(self, root):
         self.root = root
-        self.root.title("System Monitor")
+        self.root.title("Sales Report Generator")
         self.setup_ui()
     
     def setup_ui(self):
@@ -46,27 +46,27 @@ class SystemMonitor:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = SystemMonitor(root)
+    app = SalesReportGenerator(root)
     root.mainloop()
 ```
 
 **Key Features**:
-- CPU monitoring
-- Memory tracking
-- Live updates
+- PDF generation
+- Chart inclusion
+- Data formatting
 
-#### Example 2: Network Traffic Monitor
-**Description**: Live network traffic visualization
+#### Example 2: Data Exporter
+**Description**: Export data to Excel and CSV formats
 
 ```python
-# network_traffic_monitor.py
+# data_exporter.py
 import tkinter as tk
 from tkinter import ttk
 
-class NetworkTrafficMonitor:
+class DataExporter:
     def __init__(self, root):
         self.root = root
-        self.root.title("Network Traffic Monitor")
+        self.root.title("Data Exporter")
         self.setup_ui()
     
     def setup_ui(self):
@@ -75,28 +75,28 @@ class NetworkTrafficMonitor:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = NetworkTrafficMonitor(root)
+    app = DataExporter(root)
     root.mainloop()
 ```
 
 **Key Features**:
-- Traffic graphs
-- Connection monitoring
-- Alert system
+- Multiple formats
+- Data formatting
+- File management
 
 
 ### 🧪 Hands-on Exercises
 
-#### Exercise 1: Process Monitor ⭐
+#### Exercise 1: Monthly Report Generator ⭐
 **Difficulty**: Intermediate
-**Estimated Time**: 75 minutes
+**Estimated Time**: 80 minutes
 
-**Objective**: Create a process monitoring dashboard
+**Objective**: Create automated monthly reports
 
 **Requirements**:
-- Process list
-- Resource usage
-- Kill functionality
+- PDF generation
+- Chart inclusion
+- Email delivery
 
 **Instructions**:
 1. Analyze the requirements and plan your implementation
@@ -113,16 +113,16 @@ if __name__ == "__main__":
 - Add validation and error handling
 - Test all functionality thoroughly
 
-#### Exercise 2: IoT Sensor Dashboard ⭐⭐
+#### Exercise 2: Analytics Dashboard Exporter ⭐⭐
 **Difficulty**: Advanced
-**Estimated Time**: 95 minutes
+**Estimated Time**: 100 minutes
 
-**Objective**: Monitor IoT sensors in real-time
+**Objective**: Export dashboard data with visualizations
 
 **Requirements**:
-- Sensor data display
-- Alert system
-- Data logging
+- Multiple export formats
+- Chart export
+- Custom templates
 
 **Instructions**:
 1. Analyze the requirements and plan your implementation
@@ -142,10 +142,10 @@ if __name__ == "__main__":
 
 ### 🔧 Practice Projects
 
-#### Mini-Project: Real-time Dashboards Application
+#### Mini-Project: Exporting & Reporting Application
 **Scope**: Complete application using all chapter concepts
-**Duration**: 4 hours
-**Skills Applied**: Real-time application development, Threading implementation, Live data visualization
+**Duration**: 3.5 hours
+**Skills Applied**: Report generation, Data export, Professional documentation
 
 **Project Description**: Create a comprehensive application that demonstrates mastery of all concepts covered in this chapter.
 
@@ -165,7 +165,7 @@ if __name__ == "__main__":
 
 ### 📁 File Structure
 ```
-chapter08-real-time-dashboards/
+chapter09-exporting-&-reporting/
 ├── 📄 README.md                    # This file
 ├── 🐍 examples/                    # Code examples
 │   ├── example1_basic.py          # Basic example
@@ -184,7 +184,7 @@ chapter08-real-time-dashboards/
 ### 🚀 Quick Start
 ```bash
 # Navigate to chapter directory
-cd chapters/chapter08-real-time-dashboards
+cd chapters/chapter09-exporting-&-reporting
 
 # Run examples
 python examples/example1_basic.py
@@ -197,12 +197,12 @@ python exercises/exercise1_solution.py
 ## 🎯 Learning Outcomes
 
 ### ✅ Skills You'll Master
-- **Real-time application development**: Detailed understanding and practical implementation
-- **Threading implementation**: Detailed understanding and practical implementation
-- **Live data visualization**: Detailed understanding and practical implementation
+- **Report generation**: Detailed understanding and practical implementation
+- **Data export**: Detailed understanding and practical implementation
+- **Professional documentation**: Detailed understanding and practical implementation
 
 ### 🧠 Knowledge Gained
-- **Real-time Dashboards Concepts**: Complete understanding of all chapter concepts
+- **Exporting & Reporting Concepts**: Complete understanding of all chapter concepts
 - **Practical Application**: Ability to implement real-world solutions
 - **Best Practices**: Industry-standard development approaches
 
@@ -258,7 +258,7 @@ python exercises/exercise1_solution.py
 ### 📖 Chapter Navigation
 | Previous | Current | Next |
 |----------|---------|------|
-| [← Chapter 7](../chapter07-*/README.md) | **Chapter 8: Real-time Dashboards** | [Chapter 9 →](../chapter09-*/README.md) |
+| [← Chapter 8](../chapter08-*/README.md) | **Chapter 9: Exporting & Reporting** | [Chapter 10 →](../chapter10-*/README.md) |
 
 ### 📖 Book Structure
 - **📝 [Preface](../../preface.md)** - Introduction and book overview
@@ -291,4 +291,4 @@ python exercises/exercise1_solution.py
 
 **💡 Tip**: Take your time with the exercises and examples. Practice is key to mastering these concepts!
 
-**🎯 Ready for the next challenge?** Continue to Chapter 9(../chapter09-*/README.md) to build on what you've learned!
+**🎯 Ready for the next challenge?** Continue to Chapter 10(../chapter10-*/README.md) to build on what you've learned!

@@ -1,43 +1,42 @@
-# Chapter 8: Real-time Dashboards - Building Professional Dashboards with Python and Tkinter
+# Chapter 3: Events & Callbacks - Building Professional Dashboards with Python and Tkinter
 
 ## 🎯 Chapter Overview
 
 ### 📋 Learning Objectives
-- **Objective**: Create real-time monitoring dashboards
-- **Objective**: Implement threading for background operations
-- **Objective**: Build live data visualization systems
+- **Objective**: Understand event-driven programming in Tkinter
+- **Objective**: Implement interactive applications with real-time updates
+- **Objective**: Master callback functions and event handling
 
 ### ⏱️ Estimated Duration
 - **Reading Time**: 2 hours
-- **Practice Time**: 4 hours
-- **Total Time**: 6 hours
+- **Practice Time**: 3 hours
+- **Total Time**: 5 hours
 
 ### 🎓 Prerequisites
-- Chapter 7 concepts
-- Threading basics
-- Real-time systems
+- Chapter 2 concepts
+- Function and method understanding
 
 ## 📚 Chapter Content
 
 ### 🧠 Core Concepts
-- **Real-time data processing**: Real-time data processing
-- **Threading and concurrency**: Threading and concurrency
-- **Live monitoring systems**: Live monitoring systems
+- **Event-driven programming principles**: Event-driven programming principles
+- **Callback function implementation**: Callback function implementation
+- **Real-time application updates**: Real-time application updates
 
 ### 💻 Code Examples
 
-#### Example 1: System Monitor
-**Description**: Real-time system resource monitoring
+#### Example 1: Interactive Calculator
+**Description**: Fully functional calculator with button events
 
 ```python
-# system_monitor.py
+# interactive_calculator.py
 import tkinter as tk
 from tkinter import ttk
 
-class SystemMonitor:
+class InteractiveCalculator:
     def __init__(self, root):
         self.root = root
-        self.root.title("System Monitor")
+        self.root.title("Interactive Calculator")
         self.setup_ui()
     
     def setup_ui(self):
@@ -46,27 +45,27 @@ class SystemMonitor:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = SystemMonitor(root)
+    app = InteractiveCalculator(root)
     root.mainloop()
 ```
 
 **Key Features**:
-- CPU monitoring
-- Memory tracking
-- Live updates
+- Button click events
+- Real-time calculation
+- Error handling
 
-#### Example 2: Network Traffic Monitor
-**Description**: Live network traffic visualization
+#### Example 2: Color Picker
+**Description**: Interactive color selection with live preview
 
 ```python
-# network_traffic_monitor.py
+# color_picker.py
 import tkinter as tk
 from tkinter import ttk
 
-class NetworkTrafficMonitor:
+class ColorPicker:
     def __init__(self, root):
         self.root = root
-        self.root.title("Network Traffic Monitor")
+        self.root.title("Color Picker")
         self.setup_ui()
     
     def setup_ui(self):
@@ -75,28 +74,28 @@ class NetworkTrafficMonitor:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = NetworkTrafficMonitor(root)
+    app = ColorPicker(root)
     root.mainloop()
 ```
 
 **Key Features**:
-- Traffic graphs
-- Connection monitoring
-- Alert system
+- Scale widget events
+- Live color updates
+- RGB value display
 
 
 ### 🧪 Hands-on Exercises
 
-#### Exercise 1: Process Monitor ⭐
+#### Exercise 1: Text Editor with Auto-save ⭐
 **Difficulty**: Intermediate
-**Estimated Time**: 75 minutes
+**Estimated Time**: 50 minutes
 
-**Objective**: Create a process monitoring dashboard
+**Objective**: Create a text editor with automatic saving
 
 **Requirements**:
-- Process list
-- Resource usage
-- Kill functionality
+- Text editing
+- Auto-save functionality
+- File operations
 
 **Instructions**:
 1. Analyze the requirements and plan your implementation
@@ -113,16 +112,16 @@ if __name__ == "__main__":
 - Add validation and error handling
 - Test all functionality thoroughly
 
-#### Exercise 2: IoT Sensor Dashboard ⭐⭐
+#### Exercise 2: Real-time Data Monitor ⭐⭐
 **Difficulty**: Advanced
-**Estimated Time**: 95 minutes
+**Estimated Time**: 75 minutes
 
-**Objective**: Monitor IoT sensors in real-time
+**Objective**: Monitor system resources in real-time
 
 **Requirements**:
-- Sensor data display
-- Alert system
-- Data logging
+- CPU usage display
+- Memory usage display
+- Auto-refresh
 
 **Instructions**:
 1. Analyze the requirements and plan your implementation
@@ -142,10 +141,10 @@ if __name__ == "__main__":
 
 ### 🔧 Practice Projects
 
-#### Mini-Project: Real-time Dashboards Application
+#### Mini-Project: Events & Callbacks Application
 **Scope**: Complete application using all chapter concepts
-**Duration**: 4 hours
-**Skills Applied**: Real-time application development, Threading implementation, Live data visualization
+**Duration**: 3 hours
+**Skills Applied**: Event handling and callbacks, Real-time application development, Interactive user interface design
 
 **Project Description**: Create a comprehensive application that demonstrates mastery of all concepts covered in this chapter.
 
@@ -165,7 +164,7 @@ if __name__ == "__main__":
 
 ### 📁 File Structure
 ```
-chapter08-real-time-dashboards/
+chapter03-events-&-callbacks/
 ├── 📄 README.md                    # This file
 ├── 🐍 examples/                    # Code examples
 │   ├── example1_basic.py          # Basic example
@@ -184,7 +183,7 @@ chapter08-real-time-dashboards/
 ### 🚀 Quick Start
 ```bash
 # Navigate to chapter directory
-cd chapters/chapter08-real-time-dashboards
+cd chapters/chapter03-events-&-callbacks
 
 # Run examples
 python examples/example1_basic.py
@@ -197,12 +196,12 @@ python exercises/exercise1_solution.py
 ## 🎯 Learning Outcomes
 
 ### ✅ Skills You'll Master
+- **Event handling and callbacks**: Detailed understanding and practical implementation
 - **Real-time application development**: Detailed understanding and practical implementation
-- **Threading implementation**: Detailed understanding and practical implementation
-- **Live data visualization**: Detailed understanding and practical implementation
+- **Interactive user interface design**: Detailed understanding and practical implementation
 
 ### 🧠 Knowledge Gained
-- **Real-time Dashboards Concepts**: Complete understanding of all chapter concepts
+- **Events & Callbacks Concepts**: Complete understanding of all chapter concepts
 - **Practical Application**: Ability to implement real-world solutions
 - **Best Practices**: Industry-standard development approaches
 
@@ -258,7 +257,7 @@ python exercises/exercise1_solution.py
 ### 📖 Chapter Navigation
 | Previous | Current | Next |
 |----------|---------|------|
-| [← Chapter 7](../chapter07-*/README.md) | **Chapter 8: Real-time Dashboards** | [Chapter 9 →](../chapter09-*/README.md) |
+| [← Chapter 2](../chapter02-*/README.md) | **Chapter 3: Events & Callbacks** | [Chapter 4 →](../chapter04-*/README.md) |
 
 ### 📖 Book Structure
 - **📝 [Preface](../../preface.md)** - Introduction and book overview
@@ -291,4 +290,4 @@ python exercises/exercise1_solution.py
 
 **💡 Tip**: Take your time with the exercises and examples. Practice is key to mastering these concepts!
 
-**🎯 Ready for the next challenge?** Continue to Chapter 9(../chapter09-*/README.md) to build on what you've learned!
+**🎯 Ready for the next challenge?** Continue to Chapter 4(../chapter04-*/README.md) to build on what you've learned!
