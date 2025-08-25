@@ -49,6 +49,41 @@ The comprehensive final project demonstrates a production-ready dashboard with:
 - **🎨 Customizable Themes**
 - **📱 Responsive Design**
 
+## 📸 Application Screenshots
+
+### 🔐 Login Interface
+![Login Screen](app_pict/Login.png)
+*Secure authentication with role-based access control*
+
+### 📊 Main Dashboard
+![Dashboard Overview](app_pict/Dashboard.png)
+*Real-time metrics and key performance indicators*
+
+### 💾 Data Management
+![Data Management](app_pict/Data_Management.png)
+*Comprehensive database operations and data visualization*
+
+### 📋 Reports & Analytics
+![Reports Interface](app_pict/Reports.png)
+*Advanced reporting and analytics capabilities*
+
+### ⚙️ Settings & Configuration
+![Settings Panel](app_pict/Settings.png)
+*Customizable themes and application configuration*
+
+### 🎨 Visual Features
+
+The professional dashboard includes:
+
+- **🔐 Secure Login System** - Role-based authentication with user management
+- **📊 Real-time Dashboard** - Live metrics and performance indicators
+- **📈 Interactive Charts** - Dynamic data visualization with Matplotlib
+- **💾 Database Integration** - SQLite database with CRUD operations
+- **📋 Report Generation** - PDF and Excel export capabilities
+- **⚙️ Theme Customization** - Multiple color schemes and layouts
+- **📱 Responsive Design** - Adapts to different screen sizes
+- **🔄 Real-time Updates** - Live data monitoring and alerts
+
 ## 🛠️ Technology Stack
 
 ### Core Technologies
@@ -158,6 +193,12 @@ Building-Professional-Dashboards-with-Python-and-Tkinter/
 ├── 🔧 additional_exercises.md            # Advanced practice exercises
 ├── 💡 exercise_solutions.md              # Complete exercise solutions
 ├── 📈 learning_progression_guide.md      # Structured learning roadmap
+├── 📸 app_pict/                          # Application screenshots
+│   ├── 🔐 Login.png                      # Login interface
+│   ├── 📊 Dashboard.png                  # Main dashboard
+│   ├── 💾 Data_Management.png           # Data management
+│   ├── 📋 Reports.png                    # Reports interface
+│   └── ⚙️ Settings.png                   # Settings panel
 └── ⚙️ .github/                           # CI/CD and automation
     ├── 📋 workflows/                     # GitHub Actions
     ├── 🏷️ ISSUE_TEMPLATE/               # Issue templates
