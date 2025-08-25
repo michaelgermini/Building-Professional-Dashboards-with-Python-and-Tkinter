@@ -2,17 +2,17 @@
 
 ## 🎯 Introduction
 
-Bienvenue dans ce guide complet pour créer des dashboards professionnels avec Python et Tkinter. Ce livre vous accompagnera dans l'apprentissage de la création d'applications de tableau de bord de niveau entreprise.
+Welcome to this comprehensive guide for creating professional dashboards with Python and Tkinter. This book will guide you through learning how to create enterprise-level dashboard applications.
 
 ## 📚 Navigation
 
 ### 🔗 Quick Navigation
-- **🏠 [Main README](../README.md)** - Retour à la documentation principale
-- **🌐 [Interactive Website](../index.html)** - Interface web moderne
+- **🏠 [Main README](../README.md)** - Return to main documentation
+- **🌐 [Interactive Website](../index.html)** - Modern web interface
 
 ### 📖 Book Structure
-- **📝 [Preface](../preface.md)** - Introduction et vue d'ensemble du livre
-- **📋 [Table of Contents](../TABLE_OF_CONTENTS.md)** - Structure détaillée du livre
+- **📝 [Preface](../preface.md)** - Introduction and book overview
+- **📋 [Table of Contents](../TABLE_OF_CONTENTS.md)** - Detailed book structure
 
 ### 🎯 Direct Chapter Links
 - **🎯 [Chapter 1: Getting Started](../chapters/chapter01-getting-started/README.md)** - Basic Tkinter concepts
@@ -39,4 +39,4 @@ Bienvenue dans ce guide complet pour créer des dashboards professionnels avec P
 
 ---
 
-**💡 Tip**: Commencez par lire la préface complète, puis suivez les chapitres dans l'ordre pour un apprentissage optimal!
+**💡 Tip**: Start by reading the complete preface, then follow the chapters in order for optimal learning!

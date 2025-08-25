@@ -36,16 +36,16 @@ def create_chapter_navigation(chapter_num, chapter_title, chapter_dir):
     navigation = f"""## 📚 Navigation
 
 ### 🔗 Quick Navigation
-- **🏠 [Main README](../../README.md)** - Retour à la documentation principale
-- **🌐 [Interactive Website](../../index.html)** - Interface web moderne
-- **📝 [Preface](../../preface.md)** - Introduction du livre
+- **🏠 [Main README](../../README.md)** - Return to main documentation
+- **🌐 [Interactive Website](../../index.html)** - Modern web interface
+- **📝 [Preface](../../preface.md)** - Book introduction
 
 ### 📖 Chapter Navigation
 {nav_table}
 
 ### 📖 Book Structure
-- **📝 [Preface](../../preface.md)** - Introduction et vue d'ensemble du livre
-- **📋 [Table of Contents](../../TABLE_OF_CONTENTS.md)** - Structure détaillée du livre
+- **📝 [Preface](../../preface.md)** - Introduction and book overview
+- **📋 [Table of Contents](../../TABLE_OF_CONTENTS.md)** - Detailed book structure
 
 ### 🎯 Direct Chapter Links
 - **🎯 [Chapter 1: Getting Started](../chapter01-getting-started/README.md)** - Basic Tkinter concepts

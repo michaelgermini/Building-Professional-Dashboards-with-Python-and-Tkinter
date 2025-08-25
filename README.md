@@ -428,10 +428,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 📖 Book Structure
 
-- **📝 [Preface](preface.md)** - Introduction et vue d'ensemble du livre
-- **📋 [Table of Contents](TABLE_OF_CONTENTS.md)** - Structure détaillée du livre
-- **📚 [Chapter 1: Getting Started](chapters/chapter01-getting-started/README.md)** - Concepts de base Tkinter
-- **🏆 [Chapter 10: Complete Professional Dashboard](chapters/chapter10-complete-professional-dashboard/README.md)** - Application complète
+- **📝 [Preface](preface.md)** - Introduction and book overview
+- **📋 [Table of Contents](TABLE_OF_CONTENTS.md)** - Detailed book structure
+- **📚 [Chapter 1: Getting Started](chapters/chapter01-getting-started/README.md)** - Basic Tkinter concepts
+- **🏆 [Chapter 10: Complete Professional Dashboard](chapters/chapter10-complete-professional-dashboard/README.md)** - Complete application
 
 *Built with ❤️ for the Python community*
 
